@@ -1,0 +1,78 @@
+body{
+height: 21322px;
+}
+
+
+.container{
+    width : 1170px;
+    margin: auto;
+}
+
+.header .slider{
+    background-color: #fff;
+    height: 600px;
+}
+.header .navbar{
+    background-color: #252F31;
+    color: white;
+    overflow: hidden;
+}
+
+.header .navbar h2{
+    float: left;
+    text-transform: uppercase;
+}
+.header .navbar h2 span{
+    color:green
+}
+.header .navbar ul{
+    list-style: none;
+    padding-left: 10px; 
+    overflow: hidden;
+    float: right;
+}
+.header .navbar ul li{
+    float: left;
+    padding: 10px;
+}
+.feature{
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.feature .feat{
+    float: left;
+    width: 33.33333%;
+    height: 190px;
+    
+}
+.feature .feat h2{
+    text-transform: uppercase;
+}
+
+.about-me{
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+.about-me .img1{
+    float: left;
+    width: 40%;
+}
+.about-me .img1 img{width: 100%;}
+.about-me .info{
+    float: left;
+    width: 60%;
+    
+}
+.about-me .info h2{
+    text-transform: uppercase;
+}
+.about-me .info .hobbies{
+    overflow: hidden;
+    margin: 20px;
+}
+.about-me .info .hobbies > div{
+    float: left;
+    width: 50%;
+    min-height: 100px;
+}

@@ -1,0 +1,93 @@
+/* تصميم أساسي للموقع */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* تنسيق الأقسام */
+section {
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* تنسيق العناوين */
+h1, h2 {
+    color: #333;
+}
+
+/* تنسيق النصوص */
+p {
+    margin: 10px 0;
+}
+
+/* تنسيق قائمة الخدمات */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #efefef;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* تصميم أعضاء الفريق */
+.team-member {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    margin: 10px 0 5px 0;
+    color: #555;
+}
+
+.team-member p {
+    color: #777;
+}
+
+/* تصميم نموذج التواصل */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838;
+}
